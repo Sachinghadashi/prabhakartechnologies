@@ -1,8 +1,16 @@
+import SEO from "../components/SEO";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="home">
+      <SEO
+  title="Prabhakar Technologies | Best IT Company in India"
+  description="Prabhakar Technologies offers web development, mobile apps, cloud solutions, and IT consulting services in India."
+  keywords="Prabhakar Technologies, IT company in India, web development, software company, mobile apps, cloud services"
+  url="https://prabhakartechnologies.in"
+/>
+
 
       {/* Hero Section */}
       <section className="hero">
