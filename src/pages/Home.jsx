@@ -1,6 +1,8 @@
 import SEO from "../components/SEO";
 import "./Home.css";
 
+import logo from "../assets/Prabhakar_Technologies.png";
+
 const Home = () => {
   return (
     <div className="home">
@@ -14,6 +16,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="hero">
+        <img src={logo} alt="Prabhakar Technologies" style={{ maxWidth: '100%', height: 'auto', maxHeight: '250px', marginBottom: '20px' }} />
         <h1>
           Welcome to <span>Prabhakar Technologies</span>
         </h1>

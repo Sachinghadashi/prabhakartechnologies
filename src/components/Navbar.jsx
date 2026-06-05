@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
+import logo from "../assets/Prabhakar_Technologies.png";
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -9,7 +11,9 @@ const Navbar = () => {
     <nav className="navbar">
 
       <div className="nav-logo">
-        Prabhakar Technologies
+        <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
+          <img src={logo} alt="Prabhakar Technologies" style={{ height: '85px', objectFit: 'contain', transform: 'scale(1.3)', transformOrigin: 'left center' }} />
+        </Link>
       </div>
 
       {/* Hamburger */}
