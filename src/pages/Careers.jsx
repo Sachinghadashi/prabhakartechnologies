@@ -7,8 +7,8 @@ const Careers = () => {
 
       <ul>
         <li>Frontend Developer</li>
-        <li>Backend Developer</li>
-        <li>UI/UX Designer</li>
+        <li>Full Stack Developer</li>
+        <li>Mobile App Developer</li>
         <li>Data Analyst</li>
       </ul>
     </div>

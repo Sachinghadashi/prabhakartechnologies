@@ -6,9 +6,7 @@ const Services = () => {
       <ul>
         <li>Website Development</li>
         <li>Mobile App Development</li>
-        <li>Cloud Solutions</li>
-        <li>AI & Data Analytics</li>
-        <li>IT Consulting</li>
+        <li>Data Analytics</li>
       </ul>
     </div>
   );
