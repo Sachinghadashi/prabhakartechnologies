@@ -8,10 +8,7 @@ const Clients = () => {
       </p>
 
       <ul>
-        <li>ABC Corp</li>
-        <li>TechSoft Pvt Ltd</li>
-        <li>NextGen Solutions</li>
-        <li>Smart India Pvt Ltd</li>
+        <li>Dilraj Kirana Store</li>
       </ul>
     </div>
   );
