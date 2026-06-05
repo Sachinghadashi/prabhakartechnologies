@@ -23,9 +23,6 @@ const Home = () => {
           to help businesses grow in the digital world.
         </p>
 
-        <button className="hero-btn">
-          Get Started
-        </button>
       </section>
 
 
