@@ -16,7 +16,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="hero">
-        <img src={logo} alt="Prabhakar Technologies" style={{ maxWidth: '100%', height: 'auto', maxHeight: '250px', marginBottom: '20px' }} />
+        <img src={logo} alt="Prabhakar Technologies" className="hero-logo" />
         <h1>
           Welcome to <span>Prabhakar Technologies</span>
         </h1>

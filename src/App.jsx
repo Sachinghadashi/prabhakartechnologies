@@ -11,19 +11,21 @@ import Products from "./pages/Products";
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/clients" element={<Clients />} />
-      </Routes>
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/clients" element={<Clients />} />
+        </Routes>
+      </main>
 
       <Footer />
-    </>
+    </div>
   );
 }
 

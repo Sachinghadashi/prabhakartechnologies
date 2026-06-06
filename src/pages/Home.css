@@ -7,13 +7,13 @@
 /* Hero */
 .hero {
   position: relative;
-  padding: 120px 20px;
+  padding: 80px 20px 40px 20px;
   text-align: center;
-  min-height: 80vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 /* Decorative Background Elements */
@@ -52,6 +52,13 @@
   100% { transform: translateY(50px) translateX(30px); }
 }
 
+.hero-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+  margin-bottom: 20px;
+}
+
 .hero h1 {
   font-size: 4rem;
   font-weight: 800;
@@ -61,7 +68,7 @@
 }
 
 .hero span {
-  background: linear-gradient(135deg, #60a5fa, #c084fc);
+  background: linear-gradient(135deg, #0ea5e9, #f97316);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -76,7 +83,7 @@
 
 /* Stunning Glow Button */
 .hero-btn {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(135deg, #f97316, #ea580c);
   color: #fff;
   border: none;
   padding: 16px 40px;
@@ -84,7 +91,7 @@
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 10px 20px -5px rgba(249, 115, 22, 0.4);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -103,7 +110,7 @@
 
 .hero-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 15px 25px -5px rgba(99, 102, 241, 0.6);
+  box-shadow: 0 15px 25px -5px rgba(249, 115, 22, 0.6);
 }
 
 .hero-btn:hover::after {
@@ -135,8 +142,8 @@
 
 .mission-card:hover {
   transform: translateY(-10px);
-  border-color: rgba(96, 165, 250, 0.4);
-  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5), inset 0 0 20px rgba(255, 255, 255, 0.02);
+  border-color: rgba(14, 165, 233, 0.4);
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5), inset 0 0 20px rgba(14, 165, 233, 0.05);
 }
 
 .mission-card h3 {
@@ -159,12 +166,18 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 80px 15px;
-    min-height: 60vh;
+    padding: 30px 15px;
+    min-height: auto;
+    justify-content: flex-start;
+  }
+  
+  .hero-logo {
+    max-height: 150px; /* smaller on mobile */
+    margin-bottom: 15px;
   }
   
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .hero p {

@@ -11,8 +11,8 @@ const Navbar = () => {
     <nav className="navbar">
 
       <div className="nav-logo">
-        <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src={logo} alt="Prabhakar Technologies" style={{ height: '85px', objectFit: 'contain', transform: 'scale(1.3)', transformOrigin: 'left center' }} />
+        <Link to="/" className="nav-logo-link">
+          <img src={logo} alt="Prabhakar Technologies" className="nav-logo-img" />
         </Link>
       </div>
 
@@ -21,7 +21,7 @@ const Navbar = () => {
         className="hamburger"
         onClick={() => setOpen(!open)}
       >
-        ☰
+        {open ? '✕' : '☰'}
       </div>
 
       {/* Menu */}
