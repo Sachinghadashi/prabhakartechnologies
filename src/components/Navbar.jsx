@@ -44,9 +44,6 @@ const Navbar = () => {
           <Link to="/careers">Careers</Link>
         </li>
 
-        <li onClick={() => setOpen(false)}>
-          <Link to="/clients">Clients</Link>
-        </li>
 
       </ul>
 

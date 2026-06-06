@@ -55,8 +55,9 @@
 .hero-logo {
   max-width: 100%;
   height: auto;
-  max-height: 250px;
-  margin-bottom: 20px;
+  max-height: 350px;
+  margin-bottom: 30px;
+  transform: scale(1.4);
 }
 
 .hero h1 {
@@ -172,8 +173,9 @@
   }
   
   .hero-logo {
-    max-height: 150px; /* smaller on mobile */
-    margin-bottom: 15px;
+    max-height: 220px;
+    margin-bottom: 25px;
+    transform: scale(1.2);
   }
   
   .hero h1 {
